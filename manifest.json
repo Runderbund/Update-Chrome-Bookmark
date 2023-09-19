@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Update Bookmark URL",
+  "version": "3.0",
+  "description": "Update the bookmark's URL to the current page.",
+  "permissions": ["bookmarks", "activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        width: 300px;
+        font-family: Arial, sans-serif;
+      }
+      #matchingBookmarksList {
+        list-style-type: none;
+        padding: 0;
+      }
+      #matchingBookmarksList li {
+        padding: 5px;
+        cursor: pointer;
+      }
+      #matchingBookmarksList li:nth-child(odd) {
+        background-color: #f0f0f0;
+      }
+      #matchingBookmarksList li:nth-child(even) {
+        background-color: #e0e0e0;
+      }
+      #matchingBookmarksList li:hover {
+        background-color: #d0d0d0;
+      }
+    </style>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <h1>Update Bookmark URL</h1>
+    <p>Select a bookmark to update its URL to the current page.</p>
+    <ul id="matchingBookmarksList"></ul>
+  </body>
+</html>
